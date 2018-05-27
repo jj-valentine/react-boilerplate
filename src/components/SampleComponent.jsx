@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 const SampleComponent = props => {
   return (
-    <div className="" style={{ textAlign: 'center' }}>
+    <div  style={{ textAlign: 'center' }} className="sample-component">
       <h1>ISSA Working!</h1>
     </div>
   );

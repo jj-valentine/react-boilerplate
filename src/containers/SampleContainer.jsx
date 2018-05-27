@@ -23,5 +23,6 @@ class SampleContainer extends Component {
 
 }
 
-// export default SampleContainer;
-export default connect(mapStateToProps, mapDispatchToProps)(SampleContainer);
+
+export default SampleContainer;
+// export default connect(mapStateToProps, mapDispatchToProps)(SampleContainer);
