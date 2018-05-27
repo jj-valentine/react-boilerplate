@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import * as actionCreators from './../actions/actions';
-import SampleComponent from './ExampleComponent';
+import SampleComponent from '../components/SampleComponent.jsx';
 
 
 const mapStateToProps = store => ({
@@ -15,11 +15,13 @@ const mapDispatchToProps = dispatch => ({
 });
 
 class SampleContainer extends Component {
-  render = () => {
-    <SampleComponent />
+  render() {
+    return (
+      <SampleComponent />
+    );
   };
 
 }
 
-
+// export default SampleContainer;
 export default connect(mapStateToProps, mapDispatchToProps)(SampleContainer);

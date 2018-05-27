@@ -20,6 +20,7 @@ module.exports = {
       // }
     ]
   },
+  // configuration for webpack-dev-server
   devServer: {
     contentBase: path.resolve(__dirname, 'public')
   }

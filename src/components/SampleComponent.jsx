@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 
 
-export const SampleComponent = props => {
+const SampleComponent = props => {
   return (
-    <div className="">
-
+    <div className="" style={{ textAlign: 'center' }}>
+      <h1>ISSA Working!</h1>
     </div>
   );
 };
+
+
+export default SampleComponent;

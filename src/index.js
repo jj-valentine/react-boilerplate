@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 
-import SampleContainer from './containers/SampleContainer';
+import SampleContainer from './containers/SampleContainer.jsx';
 import store from './store';
 
 
-render(
-  <Provider store={ store }>
-    <SampleContainer />
-  </Provider>,
+ReactDOM.render(
+  // <Provider store={ store }>
+    <SampleContainer />,
   document.getElementById('root')
 );
