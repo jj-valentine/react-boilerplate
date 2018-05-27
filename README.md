@@ -1,5 +1,6 @@
-# react-redux-boilerplate
+# React-Redux Boilerplate
 
-Simple and modern React-Redux boilerplate including/using:
+Simple and modern React-Redux boilerplate using/including:
   - SASS Support
   - Webpack v4
+  
