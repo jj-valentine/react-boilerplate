@@ -13,11 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/back2bas1cs/react-redux-boilerplate"
   },
-
+  "author": "JD",
+  "license": "ISC",
   "keywords": [
     "react", "redux", "boilerplate"
   ],
-  "license": "ISC",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
