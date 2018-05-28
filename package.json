@@ -1,14 +1,22 @@
 {
   "name": "react-redux-boilerplate",
   "version": "1.0.0",
-  "private": true,
+  "description": "Simple & Modern React-Redux Boilerplate",
+  "main": "index.js",
   "scripts": {
     "build": "",
-    "start": "webpack-dev-server",
+    "start": "",
+    "start-dev": "webpack-dev-server --mode development --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "JD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/back2bas1cs/react-redux-boilerplate"
+  },
+
+  "keywords": [
+    "react", "redux", "boilerplate"
+  ],
   "license": "ISC",
   "dependencies": {
     "react": "^16.4.0",
