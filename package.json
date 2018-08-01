@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "Simple & Modern React-Redux Boilerplate",
+  "description": "Simple & Modern React Boilerplate",
   "main": "index.js",
   "scripts": {
     "build": "",
@@ -11,19 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/back2bas1cs/react-redux-boilerplate"
+    "url": "git+https://github.com/back2bas1cs/react-boilerplate"
   },
   "author": "JD",
   "license": "ISC",
-  "homepage": "https://github.com/back2bas1cs/react-redux-boilerplate#readme",
+  "homepage": "https://github.com/back2bas1cs/react-boilerplate#readme",
   "keywords": [
-    "react", "redux", "boilerplate"
+    "react",
+    "boilerplate"
   ],
   "dependencies": {
     "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
+    "react-dom": "^16.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
