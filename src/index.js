@@ -3,5 +3,7 @@ import ReactDOM from 'react-dom';
 
 import SampleContainer from './containers/SampleContainer.jsx';
 
-
-ReactDOM.render(<SampleContainer />, document.getElementById('root'));
+ReactDOM.render(
+  <SampleContainer />,
+  document.getElementById('root')
+);
