@@ -1,4 +1,6 @@
-# JD's React Boilerplate
+# JJ's React Boilerplate
 
-Simple and modern React boilerplate (using Webpack v4):
+Simple and modern React boilerplate:
+  - Webpack
   - SASS Support
+
