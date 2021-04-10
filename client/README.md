@@ -1,6 +1,6 @@
 # JJ's React Boilerplate
 
-Simple and modern React boilerplate:
+Simple + Modern React Boilerplate:
   - Webpack
-  - SASS Support
+  - SASS
 
