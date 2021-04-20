@@ -4,6 +4,8 @@ Simple + Modern React Boilerplate:
   - Webpack
   - SASS
 
-## NOTE: To Remove Previous Remote Origin and Re-Initialize Git:
+<br>
 
-<p>run `rm -rf .git && git init` in your new project directory</p>
+### To Remove Previous Remote Origin and Re-Initialize Git:
+
+<p>run <code>rm -rf .git && git init</code> in your new project directory</p>
