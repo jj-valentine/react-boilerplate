@@ -6,7 +6,7 @@ Simple + Modern React Boilerplate:
 
 <br>
 
-## **NOTES**
+## NOTES
 
 ### To Remove Previous Remote Origin and Re-Initialize Git:
 
