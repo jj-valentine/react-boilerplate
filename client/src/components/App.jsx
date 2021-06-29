@@ -4,9 +4,9 @@ import Component from "./Component/Component.jsx";
 
 function App() {
   return (
-    <div>
+    <>
       <Component />
-    </div>
+    </>
   );
 }
 
