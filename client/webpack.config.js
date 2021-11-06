@@ -1,4 +1,5 @@
 const path = require("path");
+const InstallPlugin = require('npm-install-webpack-plugin');
 
 module.exports = {
   entry: "./src/index.js",
@@ -7,14 +8,19 @@ module.exports = {
     filename: "bundle.js"
   },
   mode: "development",
-  // source maps help map errors to original react code
+  /* source maps help map errors to original react code */
   devtool: "source-map",
-  // configuration for webpack-dev-server
+  /* configuration for webpack-dev-server */
   devServer: {
-    port: 3000,
+    host: process.env.HOST,
+    port: process.env.PORT || 3000,
     contentBase: path.join(__dirname, "public"),
+    /* enable so HTML5 History API-based routing works. 
+    good default that will come in handy in more complicated setups. */
+    historyApiFallback: true, 
     hot: true,
-    // historyApiFallback: { index: "/index.html" }
+    /* only display errors (to reduce the amount of output) */
+    stats: 'errors-only'
   },
   module: {
     rules: [
