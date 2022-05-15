@@ -14,13 +14,20 @@ module.exports = {
   devServer: {
     host: process.env.HOST,
     port: process.env.PORT || 3000,
-    contentBase: path.join(__dirname, "public"),
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },    
     /* enable so HTML5 History API-based routing works. 
     good default that will come in handy in more complicated setups. */
     historyApiFallback: true, 
     hot: true,
-    /* only display errors (to reduce the amount of output) */
-    stats: 'errors-only'
+    client: {
+      overlay: {
+        errors: true,
+        warnings: false
+      }
+    
+    }
   },
   module: {
     rules: [
